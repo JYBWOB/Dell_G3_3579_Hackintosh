@@ -286,13 +286,13 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string> -wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta -v igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=11 -igfxlspcon -igfxhdmidivs</string>
+		<string> -wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=54 -igfxlspcon -igfxhdmidivs</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>macbook</string>
+		<string>mac OS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
@@ -300,7 +300,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -383,6 +383,7 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<true/>
