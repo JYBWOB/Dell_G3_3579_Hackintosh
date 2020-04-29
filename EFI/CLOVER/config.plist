@@ -226,7 +226,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string> -wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=54 -igfxlspcon -igfxhdmidivs</string>
+		<string>-wegnoegpu debug=0x100 -cdfon dart=0 darkwake=no -alcbeta igfxcflbklt=1 keepsyms=1 -disablegfxfirmware -igfxnohdmi alcid=54 -igfxlspcon -igfxhdmidivs</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -309,8 +309,6 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
-			<string>Recovery</string>
-			<string>Ubuntu</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<true/>
@@ -334,7 +332,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
